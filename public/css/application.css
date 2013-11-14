@@ -1,10 +1,49 @@
 .container {
   margin: 20px auto;
+  margin-top: 5%;
   width: 600px;
   padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+  background-color: #C6FFBA;
+  border: 1px solid #D1FFA3;
+  box-shadow: 12px 12px 5px gray;
 }
 
 th {
   text-align: left;
+}
+
+body {
+  background-color: #DAFFB5;
+}
+
+.message {
+  color: #002626;
+  font-family: Overlock SC;
+}
+
+.sweet-button {
+  background-color: #96E896;
+  border: solid #96E896;
+  border-radius: 1px;
+  color: #002626;
+  box-shadow: 3px 3px 5px gray;
+}
+
+.sweet-form {
+  border: #00B85C;
+  box-shadow: 4px 4px 6px gray;
+  padding: 5px;
+  font-family: Average Sans;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 24px;
 }
