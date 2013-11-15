@@ -2,31 +2,45 @@
 
   <div class='message-space'>
 
-    <section class='greeting message'>
+    <section class='greeting message hide-on-start'>
       <h2>Hello, human.</h2>
       <h3>What pitiful offering have you brought to place before the guardians
         of the green glass door?</h2>
     </section>
 
-    <% if session[:accepted] %>
-      <section class='accept-notice message'>
+
+      <section class='accept-notice message hide-on-start'>
         <p>Well done!  Your offering has pleased the guardians of the green glass door.</p>
         <p>You may enter.</p>
       </section>
-    <% elsif session[:accepted] == false %>
-      <section class='reject-notice message'>
-        <p>Your pathetic offering has been rejected.</p>
-        <p>It can't come in, and neither can you!</p>
+
+      <section class='message hide-on-start reject-notice1'>
+        <p class='reject-notice1'>Your pathetic offering has been rejected.</p>
       </section>
-    <% else %>
-    <% end %>
+
+      <section class='message hide-on-start reject-notice2'>
+        <p class='reject-notice2'>It can't come in, and neither can you!</p>
+      </section>
+
+    <section class='try-again message hide-on-start'>
+      <p>Would you like to try again, puling mortal?</p>
+      <button class='yes'>Yes</button>
+      <button class='no'>No</button>
+    </section>
+
+    <p class='very-well message hide-on-start'>Very well.  What have you brought this time?</p>
+
+    <p class='get-out message hide-on-start'>Fine!<p/>
+    <p class='no-really message hide-on-start'>LEAVE.</p>
 
   </div>
 
-  <form action='/offering' method='get' class='offer-form'>
+
+  <form action='/offering' method='get' class='offer-form hide-on-start'>
     <input type='text' name='offering' class='sweet-form' autofocus>
     <input type='submit' value='Make an offering' class='sweet-button'>
   </form>
+
 
 </div>
 

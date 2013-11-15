@@ -6,6 +6,7 @@
   background-color: #C6FFBA;
   border: 1px solid #D1FFA3;
   box-shadow: 12px 12px 5px gray;
+  height: 300px;
 }
 
 th {
@@ -15,6 +16,7 @@ th {
 body {
   background-color: #DAFFB5;
 }
+
 
 .message {
   color: #002626;
@@ -36,14 +38,26 @@ body {
   font-family: Average Sans;
 }
 
+.get-out {
+  font-size: 48px;
+  margin-left: 250px;
+  margin-top: 120px;
+}
+
+.no-really {
+  font-size: 60px;
+  margin-left: 200px;
+  margin-top: 120px;
+}
+
 h2 {
-  font-size: 28px;
+  font-size: 36px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 p {
-  font-size: 24px;
+  font-size: 28px;
 }
