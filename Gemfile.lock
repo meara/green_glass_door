@@ -75,6 +75,6 @@ DEPENDENCIES
   rspec
   shotgun
   shoulda-matchers
-  sinatra
+  sinatra (= 1.4.3)
   sinatra-contrib
   thin
