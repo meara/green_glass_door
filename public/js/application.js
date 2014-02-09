@@ -30,11 +30,8 @@ $(document).ready(function() {
         $('.no').on('click', function(event) {
           $('.message').fadeOut(1000);
           $('.get-out').delay(1500).fadeIn(2000);
-          $('.message').delay(1000).fadeOut(1000)
-          $('.no-really').delay(4500).fadeIn(2000);
-          // $('.message').delay(2000).fadeOut(1000)
-          // $('.greeting').delay(5000).fadeIn(2000)
-          // $('.offer-form').delay(6000).fadeIn(2000)
+          $('.get-out').delay(1000).fadeOut(1000)
+          $('.no-really').delay(5500).fadeIn(2000);
         });
       };
     }, 'json');
